@@ -1,0 +1,535 @@
+[WARNING] ME(25407:140601894196160,MainProcess):2022-11-05-21:57:59.533.720 [mindspore/train/model.py:1076] For EvaluateCallBack callback, {'epoch_end'} methods may not be supported in later version, Use methods prefixed with 'on_train' or 'on_eval' instead when using customized callbacks.
+Create dataset........
+dataset_size: 120
+Train epoch number = 100
+-------------------------开始训练--------------------------------
+epoch: 1 step: 120, loss is 2.7598140239715576
+Train epoch time: 748643.100 ms, per step time: 6238.692 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 75.83333333333334%
+Accuracy of frog_eye_leaf_spot: 76.33333333333334%
+Accuracy of rust: 88.50000000000001%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:1 eval_acc:0.0000%
+------------------------------------------
+epoch: 2 step: 120, loss is 3.0429582595825195
+Train epoch time: 577813.378 ms, per step time: 4815.111 ms
+------------------------------------------
+Accuracy of scab: 68.16666666666666%
+Accuracy of healthy: 77.16666666666667%
+Accuracy of frog_eye_leaf_spot: 76.33333333333331%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:2 eval_acc:2.5000%
+------------------------------------------
+epoch: 3 step: 120, loss is 2.782332181930542
+Train epoch time: 567288.601 ms, per step time: 4727.405 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 76.49999999999999%
+Accuracy of frog_eye_leaf_spot: 76.33333333333334%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:3 eval_acc:0.6667%
+------------------------------------------
+epoch: 4 step: 120, loss is 2.5313024520874023
+Train epoch time: 540397.744 ms, per step time: 4503.315 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 75.83333333333334%
+Accuracy of frog_eye_leaf_spot: 76.33333333333334%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333334%
+epoch:4 eval_acc:0.0000%
+------------------------------------------
+epoch: 5 step: 120, loss is 2.479318380355835
+Train epoch time: 585974.594 ms, per step time: 4883.122 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 75.83333333333333%
+Accuracy of frog_eye_leaf_spot: 76.33333333333333%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333334%
+epoch:5 eval_acc:0.0000%
+------------------------------------------
+epoch: 6 step: 120, loss is 2.6499199867248535
+Train epoch time: 569080.476 ms, per step time: 4742.337 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 75.66666666666666%
+Accuracy of frog_eye_leaf_spot: 76.33333333333334%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333334%
+epoch:6 eval_acc:0.0000%
+------------------------------------------
+epoch: 7 step: 120, loss is 2.7829487323760986
+Train epoch time: 579421.907 ms, per step time: 4828.516 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 75.66666666666666%
+Accuracy of frog_eye_leaf_spot: 76.33333333333333%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:7 eval_acc:7.0000%
+------------------------------------------
+epoch: 8 step: 120, loss is 2.5511133670806885
+Train epoch time: 576310.341 ms, per step time: 4802.586 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 77.33333333333334%
+Accuracy of frog_eye_leaf_spot: 76.33333333333333%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:8 eval_acc:4.1667%
+------------------------------------------
+epoch: 9 step: 120, loss is 2.60785174369812
+Train epoch time: 575391.473 ms, per step time: 4794.929 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 76.50000000000001%
+Accuracy of frog_eye_leaf_spot: 76.33333333333334%
+Accuracy of rust: 88.50000000000001%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:9 eval_acc:1.8333%
+------------------------------------------
+epoch: 10 step: 120, loss is 2.5095367431640625
+Train epoch time: 565727.579 ms, per step time: 4714.396 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 76.66666666666669%
+Accuracy of frog_eye_leaf_spot: 76.33333333333333%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:10 eval_acc:4.1667%
+------------------------------------------
+epoch: 11 step: 120, loss is 2.4116873741149902
+Train epoch time: 543133.923 ms, per step time: 4526.116 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 77.0%
+Accuracy of frog_eye_leaf_spot: 76.33333333333334%
+Accuracy of rust: 88.50000000000001%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:11 eval_acc:4.3333%
+------------------------------------------
+epoch: 12 step: 120, loss is 2.2480313777923584
+Train epoch time: 605213.358 ms, per step time: 5043.445 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 78.83333333333333%
+Accuracy of frog_eye_leaf_spot: 76.33333333333334%
+Accuracy of rust: 89.16666666666666%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:12 eval_acc:7.1667%
+------------------------------------------
+epoch: 13 step: 120, loss is 2.7154133319854736
+Train epoch time: 557851.326 ms, per step time: 4648.761 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 81.16666666666667%
+Accuracy of frog_eye_leaf_spot: 76.00000000000001%
+Accuracy of rust: 89.50000000000001%
+Accuracy of complex: 89.33333333333331%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:13 eval_acc:11.1667%
+------------------------------------------
+epoch: 14 step: 120, loss is 2.55856990814209
+Train epoch time: 556666.315 ms, per step time: 4638.886 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 78.33333333333334%
+Accuracy of frog_eye_leaf_spot: 76.5%
+Accuracy of rust: 87.66666666666666%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:14 eval_acc:9.6667%
+------------------------------------------
+epoch: 15 step: 120, loss is 2.3122661113739014
+Train epoch time: 553467.560 ms, per step time: 4612.230 ms
+------------------------------------------
+Accuracy of scab: 68.16666666666666%
+Accuracy of healthy: 85.66666666666667%
+Accuracy of frog_eye_leaf_spot: 75.16666666666666%
+Accuracy of rust: 89.33333333333333%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:15 eval_acc:19.8333%
+------------------------------------------
+epoch: 16 step: 120, loss is 2.686410427093506
+Train epoch time: 561676.193 ms, per step time: 4680.635 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 80.0%
+Accuracy of frog_eye_leaf_spot: 75.33333333333334%
+Accuracy of rust: 88.83333333333333%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:16 eval_acc:18.8333%
+------------------------------------------
+epoch: 17 step: 120, loss is 2.5512216091156006
+Train epoch time: 618955.941 ms, per step time: 5157.966 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 82.66666666666667%
+Accuracy of frog_eye_leaf_spot: 78.00000000000001%
+Accuracy of rust: 88.83333333333333%
+Accuracy of complex: 89.33333333333333%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:17 eval_acc:27.0000%
+------------------------------------------
+epoch: 18 step: 120, loss is 2.56413197517395
+Train epoch time: 610274.489 ms, per step time: 5085.621 ms
+------------------------------------------
+Accuracy of scab: 68.33333333333333%
+Accuracy of healthy: 81.33333333333333%
+Accuracy of frog_eye_leaf_spot: 79.0%
+Accuracy of rust: 90.99999999999999%
+Accuracy of complex: 89.50000000000001%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:18 eval_acc:16.6667%
+------------------------------------------
+epoch: 19 step: 120, loss is 2.386923313140869
+Train epoch time: 605576.435 ms, per step time: 5046.470 ms
+------------------------------------------
+Accuracy of scab: 67.5%
+Accuracy of healthy: 83.83333333333333%
+Accuracy of frog_eye_leaf_spot: 77.5%
+Accuracy of rust: 88.50000000000001%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:19 eval_acc:25.0000%
+------------------------------------------
+epoch: 20 step: 120, loss is 2.045170545578003
+Train epoch time: 623943.842 ms, per step time: 5199.532 ms
+------------------------------------------
+Accuracy of scab: 69.0%
+Accuracy of healthy: 78.0%
+Accuracy of frog_eye_leaf_spot: 77.66666666666667%
+Accuracy of rust: 89.0%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:20 eval_acc:29.8333%
+------------------------------------------
+epoch: 21 step: 120, loss is 2.350034475326538
+Train epoch time: 640517.720 ms, per step time: 5337.648 ms
+------------------------------------------
+Accuracy of scab: 70.49999999999999%
+Accuracy of healthy: 79.83333333333334%
+Accuracy of frog_eye_leaf_spot: 78.0%
+Accuracy of rust: 88.00000000000001%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333334%
+epoch:21 eval_acc:21.1667%
+------------------------------------------
+epoch: 22 step: 120, loss is 2.0283000469207764
+Train epoch time: 654262.359 ms, per step time: 5452.186 ms
+------------------------------------------
+Accuracy of scab: 69.0%
+Accuracy of healthy: 83.0%
+Accuracy of frog_eye_leaf_spot: 81.16666666666667%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:22 eval_acc:31.1667%
+------------------------------------------
+epoch: 23 step: 120, loss is 2.317657947540283
+Train epoch time: 654774.127 ms, per step time: 5456.451 ms
+------------------------------------------
+Accuracy of scab: 73.49999999999999%
+Accuracy of healthy: 85.16666666666669%
+Accuracy of frog_eye_leaf_spot: 79.33333333333334%
+Accuracy of rust: 88.50000000000001%
+Accuracy of complex: 89.33333333333331%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:23 eval_acc:44.0000%
+------------------------------------------
+epoch: 24 step: 120, loss is 2.0487818717956543
+Train epoch time: 657099.236 ms, per step time: 5475.827 ms
+------------------------------------------
+Accuracy of scab: 74.49999999999999%
+Accuracy of healthy: 81.5%
+Accuracy of frog_eye_leaf_spot: 77.16666666666667%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:24 eval_acc:39.0000%
+------------------------------------------
+epoch: 25 step: 120, loss is 1.581217885017395
+Train epoch time: 623929.048 ms, per step time: 5199.409 ms
+------------------------------------------
+Accuracy of scab: 84.33333333333334%
+Accuracy of healthy: 92.83333333333331%
+Accuracy of frog_eye_leaf_spot: 82.16666666666667%
+Accuracy of rust: 88.83333333333333%
+Accuracy of complex: 89.33333333333331%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:25 eval_acc:53.0000%
+------------------------------------------
+epoch: 26 step: 120, loss is 1.8625890016555786
+Train epoch time: 555724.708 ms, per step time: 4631.039 ms
+------------------------------------------
+Accuracy of scab: 75.16666666666667%
+Accuracy of healthy: 91.66666666666666%
+Accuracy of frog_eye_leaf_spot: 80.16666666666667%
+Accuracy of rust: 88.5%
+Accuracy of complex: 89.83333333333331%
+Accuracy of powdery_mildew: 94.3333333333333%
+epoch:26 eval_acc:53.1667%
+------------------------------------------
+epoch: 27 step: 120, loss is 2.1292600631713867
+Train epoch time: 542993.048 ms, per step time: 4524.942 ms
+------------------------------------------
+Accuracy of scab: 82.33333333333334%
+Accuracy of healthy: 90.0%
+Accuracy of frog_eye_leaf_spot: 83.50000000000001%
+Accuracy of rust: 88.5%
+Accuracy of complex: 90.66666666666666%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:27 eval_acc:52.0000%
+------------------------------------------
+epoch: 28 step: 120, loss is 2.2829442024230957
+Train epoch time: 566314.897 ms, per step time: 4719.291 ms
+------------------------------------------
+Accuracy of scab: 84.16666666666669%
+Accuracy of healthy: 94.0%
+Accuracy of frog_eye_leaf_spot: 81.00000000000001%
+Accuracy of rust: 90.99999999999999%
+Accuracy of complex: 90.16666666666667%
+Accuracy of powdery_mildew: 94.5%
+epoch:28 eval_acc:58.0000%
+------------------------------------------
+epoch: 29 step: 120, loss is 1.737758755683899
+Train epoch time: 552276.063 ms, per step time: 4602.301 ms
+------------------------------------------
+Accuracy of scab: 86.99999999999999%
+Accuracy of healthy: 94.33333333333331%
+Accuracy of frog_eye_leaf_spot: 81.00000000000001%
+Accuracy of rust: 93.16666666666666%
+Accuracy of complex: 91.33333333333333%
+Accuracy of powdery_mildew: 94.83333333333333%
+epoch:29 eval_acc:60.0000%
+------------------------------------------
+epoch: 30 step: 120, loss is 1.3465782403945923
+Train epoch time: 560374.777 ms, per step time: 4669.790 ms
+------------------------------------------
+Accuracy of scab: 85.50000000000001%
+Accuracy of healthy: 90.83333333333331%
+Accuracy of frog_eye_leaf_spot: 83.16666666666667%
+Accuracy of rust: 91.33333333333333%
+Accuracy of complex: 89.49999999999999%
+Accuracy of powdery_mildew: 93.83333333333331%
+epoch:30 eval_acc:59.8333%
+------------------------------------------
+epoch: 31 step: 120, loss is 2.1697421073913574
+Train epoch time: 566333.333 ms, per step time: 4719.444 ms
+------------------------------------------
+Accuracy of scab: 88.16666666666666%
+Accuracy of healthy: 92.66666666666667%
+Accuracy of frog_eye_leaf_spot: 83.83333333333333%
+Accuracy of rust: 92.33333333333333%
+Accuracy of complex: 90.16666666666666%
+Accuracy of powdery_mildew: 94.49999999999997%
+epoch:31 eval_acc:61.8333%
+------------------------------------------
+epoch: 32 step: 120, loss is 2.0595734119415283
+Train epoch time: 574989.607 ms, per step time: 4791.580 ms
+------------------------------------------
+Accuracy of scab: 86.5%
+Accuracy of healthy: 92.83333333333331%
+Accuracy of frog_eye_leaf_spot: 88.33333333333334%
+Accuracy of rust: 93.16666666666664%
+Accuracy of complex: 89.66666666666666%
+Accuracy of powdery_mildew: 94.99999999999999%
+epoch:32 eval_acc:61.0000%
+------------------------------------------
+epoch: 33 step: 120, loss is 1.1942718029022217
+Train epoch time: 559081.625 ms, per step time: 4659.014 ms
+------------------------------------------
+Accuracy of scab: 90.16666666666666%
+Accuracy of healthy: 93.0%
+Accuracy of frog_eye_leaf_spot: 83.33333333333334%
+Accuracy of rust: 90.83333333333331%
+Accuracy of complex: 90.5%
+Accuracy of powdery_mildew: 94.99999999999999%
+epoch:33 eval_acc:64.1667%
+------------------------------------------
+epoch: 34 step: 120, loss is 2.453056812286377
+Train epoch time: 553676.108 ms, per step time: 4613.968 ms
+------------------------------------------
+Accuracy of scab: 84.66666666666667%
+Accuracy of healthy: 94.33333333333334%
+Accuracy of frog_eye_leaf_spot: 82.66666666666667%
+Accuracy of rust: 93.5%
+Accuracy of complex: 89.33333333333333%
+Accuracy of powdery_mildew: 94.99999999999999%
+epoch:34 eval_acc:62.8333%
+------------------------------------------
+epoch: 35 step: 120, loss is 1.8785732984542847
+Train epoch time: 549239.762 ms, per step time: 4576.998 ms
+------------------------------------------
+Accuracy of scab: 84.33333333333334%
+Accuracy of healthy: 93.16666666666666%
+Accuracy of frog_eye_leaf_spot: 84.66666666666669%
+Accuracy of rust: 90.33333333333333%
+Accuracy of complex: 90.16666666666666%
+Accuracy of powdery_mildew: 94.66666666666666%
+epoch:35 eval_acc:59.8333%
+------------------------------------------
+epoch: 36 step: 120, loss is 1.4648913145065308
+Train epoch time: 547339.833 ms, per step time: 4561.165 ms
+------------------------------------------
+Accuracy of scab: 78.83333333333333%
+Accuracy of healthy: 93.66666666666667%
+Accuracy of frog_eye_leaf_spot: 88.00000000000001%
+Accuracy of rust: 90.49999999999999%
+Accuracy of complex: 89.66666666666666%
+Accuracy of powdery_mildew: 94.33333333333331%
+epoch:36 eval_acc:57.8333%
+------------------------------------------
+epoch: 37 step: 120, loss is 1.664963960647583
+Train epoch time: 553767.366 ms, per step time: 4614.728 ms
+------------------------------------------
+Accuracy of scab: 90.16666666666664%
+Accuracy of healthy: 96.50000000000001%
+Accuracy of frog_eye_leaf_spot: 86.33333333333336%
+Accuracy of rust: 94.16666666666664%
+Accuracy of complex: 92.0%
+Accuracy of powdery_mildew: 95.33333333333331%
+epoch:37 eval_acc:69.6667%
+------------------------------------------
+epoch: 38 step: 120, loss is 1.4079796075820923
+Train epoch time: 558968.976 ms, per step time: 4658.075 ms
+------------------------------------------
+Accuracy of scab: 89.0%
+Accuracy of healthy: 94.99999999999996%
+Accuracy of frog_eye_leaf_spot: 87.00000000000001%
+Accuracy of rust: 94.33333333333331%
+Accuracy of complex: 90.16666666666666%
+Accuracy of powdery_mildew: 94.16666666666667%
+epoch:38 eval_acc:67.0000%
+------------------------------------------
+epoch: 39 step: 120, loss is 1.2296085357666016
+Train epoch time: 574018.185 ms, per step time: 4783.485 ms
+------------------------------------------
+Accuracy of scab: 89.49999999999999%
+Accuracy of healthy: 95.8333333333333%
+Accuracy of frog_eye_leaf_spot: 86.33333333333333%
+Accuracy of rust: 96.16666666666666%
+Accuracy of complex: 90.99999999999999%
+Accuracy of powdery_mildew: 96.16666666666666%
+epoch:39 eval_acc:71.5000%
+------------------------------------------
+epoch: 40 step: 120, loss is 1.7233028411865234
+Train epoch time: 688262.854 ms, per step time: 5735.524 ms
+------------------------------------------
+Accuracy of scab: 90.49999999999999%
+Accuracy of healthy: 94.16666666666664%
+Accuracy of frog_eye_leaf_spot: 89.49999999999999%
+Accuracy of rust: 96.49999999999999%
+Accuracy of complex: 91.16666666666667%
+Accuracy of powdery_mildew: 95.8333333333333%
+epoch:40 eval_acc:69.3333%
+------------------------------------------
+epoch: 41 step: 120, loss is 1.6848989725112915
+Train epoch time: 665093.415 ms, per step time: 5542.445 ms
+------------------------------------------
+Accuracy of scab: 88.83333333333334%
+Accuracy of healthy: 95.49999999999997%
+Accuracy of frog_eye_leaf_spot: 89.0%
+Accuracy of rust: 91.5%
+Accuracy of complex: 89.83333333333331%
+Accuracy of powdery_mildew: 95.83333333333333%
+epoch:41 eval_acc:69.1667%
+------------------------------------------
+epoch: 42 step: 120, loss is 1.8208262920379639
+Train epoch time: 650637.397 ms, per step time: 5421.978 ms
+------------------------------------------
+Accuracy of scab: 88.83333333333334%
+Accuracy of healthy: 95.33333333333331%
+Accuracy of frog_eye_leaf_spot: 87.99999999999999%
+Accuracy of rust: 93.83333333333333%
+Accuracy of complex: 91.99999999999997%
+Accuracy of powdery_mildew: 95.83333333333333%
+epoch:42 eval_acc:68.5000%
+------------------------------------------
+epoch: 43 step: 120, loss is 1.009064793586731
+Train epoch time: 638589.519 ms, per step time: 5321.579 ms
+------------------------------------------
+Accuracy of scab: 87.33333333333334%
+Accuracy of healthy: 95.16666666666666%
+Accuracy of frog_eye_leaf_spot: 90.0%
+Accuracy of rust: 97.33333333333333%
+Accuracy of complex: 92.83333333333333%
+Accuracy of powdery_mildew: 96.0%
+epoch:43 eval_acc:71.1667%
+------------------------------------------
+epoch: 44 step: 120, loss is 1.1348344087600708
+Train epoch time: 660355.428 ms, per step time: 5502.962 ms
+------------------------------------------
+Accuracy of scab: 90.0%
+Accuracy of healthy: 97.66666666666666%
+Accuracy of frog_eye_leaf_spot: 90.16666666666664%
+Accuracy of rust: 96.33333333333333%
+Accuracy of complex: 90.83333333333331%
+Accuracy of powdery_mildew: 97.16666666666664%
+epoch:44 eval_acc:77.1667%
+------------------------------------------
+epoch: 45 step: 120, loss is 1.2915765047073364
+Train epoch time: 653699.087 ms, per step time: 5447.492 ms
+------------------------------------------
+Accuracy of scab: 90.66666666666666%
+Accuracy of healthy: 96.66666666666666%
+Accuracy of frog_eye_leaf_spot: 90.49999999999999%
+Accuracy of rust: 97.83333333333333%
+Accuracy of complex: 91.33333333333333%
+Accuracy of powdery_mildew: 96.33333333333331%
+epoch:45 eval_acc:76.1667%
+------------------------------------------
+epoch: 46 step: 120, loss is 1.0622484683990479
+Train epoch time: 636479.660 ms, per step time: 5303.997 ms
+------------------------------------------
+Accuracy of scab: 91.16666666666667%
+Accuracy of healthy: 95.49999999999997%
+Accuracy of frog_eye_leaf_spot: 87.50000000000003%
+Accuracy of rust: 97.0%
+Accuracy of complex: 90.66666666666666%
+Accuracy of powdery_mildew: 96.16666666666663%
+epoch:46 eval_acc:73.8333%
+------------------------------------------
+epoch: 47 step: 120, loss is 1.295914888381958
+Train epoch time: 664948.622 ms, per step time: 5541.239 ms
+------------------------------------------
+Accuracy of scab: 86.16666666666667%
+Accuracy of healthy: 96.66666666666664%
+Accuracy of frog_eye_leaf_spot: 89.16666666666669%
+Accuracy of rust: 97.5%
+Accuracy of complex: 90.99999999999999%
+Accuracy of powdery_mildew: 96.0%
+epoch:47 eval_acc:70.8333%
+------------------------------------------
+epoch: 48 step: 120, loss is 1.0553474426269531
+Train epoch time: 550719.149 ms, per step time: 4589.326 ms
+------------------------------------------
+Accuracy of scab: 90.66666666666666%
+Accuracy of healthy: 96.49999999999999%
+Accuracy of frog_eye_leaf_spot: 87.33333333333334%
+Accuracy of rust: 94.33333333333331%
+Accuracy of complex: 90.99999999999999%
+Accuracy of powdery_mildew: 95.66666666666664%
+epoch:48 eval_acc:72.6667%
+------------------------------------------
+epoch: 49 step: 120, loss is 1.7249774932861328
+Train epoch time: 544953.201 ms, per step time: 4541.277 ms
